@@ -1,0 +1,19 @@
+{
+  "name": "spotify-music-downloader",
+  "version": "1.0.0",
+  "description": "A tool to download music from Spotify.",
+  "main": "music.js",
+  "scripts": {
+    "start": "node music.js"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "axios": "^0.27.2",
+    "node-id3": "^0.2.7",
+    "progress": "^2.0.3",
+    "prompt-sync": "^4.2.0",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "author": "Jarif",
+  "license": "proprietary"
+}
